@@ -19,8 +19,8 @@ jobs:
           node-version: '18'
 
       - name: Installations des dépendances
-        run: npm install
+        run: cd code-appli-node-js/result && npm install
 
      # à compléter
       - name: Test de l'application
-        run: npm test
+        run: cd code-appli-node-js/result && npm test
