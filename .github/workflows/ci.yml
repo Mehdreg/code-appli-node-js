@@ -23,4 +23,4 @@ jobs:
 
      # à compléter
       - name: Test de l'application
-        run: npm test
+        run: cd code-appli-node-js/result/test && npm test
