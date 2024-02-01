@@ -22,3 +22,5 @@ jobs:
         run: npm install
 
      # à compléter
+      - name: Test
+        run: npm test
